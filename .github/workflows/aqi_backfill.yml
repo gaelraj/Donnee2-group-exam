@@ -70,3 +70,8 @@ jobs:
             git commit -m "data: add 5 months AQI backfill"
             git push
           fi
+      - name: Create warehouse schema
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          python scripts/create_schema.py
