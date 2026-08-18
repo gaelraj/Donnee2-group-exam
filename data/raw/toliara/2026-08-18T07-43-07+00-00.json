@@ -1,0 +1,34 @@
+{
+  "city": {
+    "city": "Toliara",
+    "country": "Madagascar",
+    "latitude": -23.35,
+    "longitude": 43.6667
+  },
+  "collected_at_utc": "2026-08-18T07:43:07+00:00",
+  "source": "openweather_air_pollution_current",
+  "response": {
+    "coord": {
+      "lon": 43.6667,
+      "lat": -23.35
+    },
+    "list": [
+      {
+        "main": {
+          "aqi": 1
+        },
+        "components": {
+          "co": 80.17,
+          "no": 0.02,
+          "no2": 0.07,
+          "o3": 42.58,
+          "so2": 0.08,
+          "pm2_5": 2.08,
+          "pm10": 6.59,
+          "nh3": 0.08
+        },
+        "dt": 1787038987
+      }
+    ]
+  }
+}
